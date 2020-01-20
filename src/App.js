@@ -8,6 +8,7 @@ class App extends Component {
 		<HashRouter>
 		<div>
 			<div className="">
+				<Route path="/" component={cv} exact />
 				<Route path="/es" component={cv} exact />
 				<Route path="/en" component={cv} exact />
 			</div>
