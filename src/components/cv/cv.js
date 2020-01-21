@@ -20,6 +20,8 @@ import iconGithub from './img/iconGithub.png';
 import iconLinkedin from './img/iconLinkedin.png';
 import IconHobbies from './img/IconHobbies.png';
 import iconTwiter from './img/iconTwiter.png';
+import en  from './img/iconSpain.png';
+import es from './img/iconEnglish.png';
 import pdf from './pdf/FedericoCetta.pdf';
 
 
@@ -171,10 +173,11 @@ class Curriculum extends React.Component{
 			</div>
             <div className="icon-bar">
         
-        <a href="https://www.linkedin.com/in/federico-cetta-06314a138/"  className=""><i><img className="titles-icons" src={iconLinkedin} alt="" /></i></a>
-        <a href="https://twitter.com/FedericoCetta12"  className=""><i><img className="titles-icons" src={iconTwiter} alt="" /></i></a> 
-        <a href="https://github.com/FedericoCetta/Curriculum"  className=""><i><img className="titles-icons" src={iconGithub} alt="" /></i></a> 
-        <a href={pdf} download="FedericoCetta.pdf" className=""><i><img className="titles-icons" src={iconPdf} alt="" /></i></a> 
+        <a href="https://www.linkedin.com/in/federico-cetta-06314a138/"  target="_blank" className=""><i><img className="titles-icons" src={iconLinkedin} alt="" /></i></a>
+        <a href="https://twitter.com/FedericoCetta12" target="_blank" className=""><i><img className="titles-icons" src={iconTwiter} alt="" /></i></a> 
+        <a href="https://github.com/FedericoCetta/FedericoCettaCV"  target="_blank" className=""><i><img className="titles-icons" src={iconGithub} alt="" /></i></a> 
+        <a href={pdf} download="FedericoCetta.pdf" target="_blank" className=""><i><img className="titles-icons" src={iconPdf} alt="" /></i></a>
+        <a href="'https://fedecetta.info/#/"  className=""><i><img className="titles-icons" src={language-icon} alt="" /></i></a> 
     </div>
 		</TranslatorProvider>)
 	}
