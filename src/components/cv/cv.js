@@ -20,8 +20,6 @@ import iconGithub from './img/iconGithub.png';
 import iconLinkedin from './img/iconLinkedin.png';
 import IconHobbies from './img/IconHobbies.png';
 import iconTwiter from './img/iconTwiter.png';
-import en  from './img/iconSpain.png';
-import es from './img/iconEnglish.png';
 import pdf from './pdf/FedericoCetta.pdf';
 
 
@@ -177,7 +175,7 @@ class Curriculum extends React.Component{
         <a href="https://twitter.com/FedericoCetta12" target="_blank" className=""><i><img className="titles-icons" src={iconTwiter} alt="" /></i></a> 
         <a href="https://github.com/FedericoCetta/FedericoCettaCV"  target="_blank" className=""><i><img className="titles-icons" src={iconGithub} alt="" /></i></a> 
         <a href={pdf} download="FedericoCetta.pdf" target="_blank" className=""><i><img className="titles-icons" src={iconPdf} alt="" /></i></a>
-        <a href="'https://fedecetta.info/#/"  className=""><i><img className="titles-icons" src={language-icon} alt="" /></i></a> 
+       
     </div>
 		</TranslatorProvider>)
 	}
