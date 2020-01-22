@@ -1,14 +1,14 @@
 {
 	"locale" 	: "en-us",
 	"contents" 	: {
-		"mensaje" : "Bienvendio",
-		"contact" : "Contacto",
-		"language" : "Idiomas",
-		"language-region" : "Ingles : ",
-		"language-level" : "Intermedio",
-		"language-icon" : "en",
-		"objetivo":"Objetivo",
-		"experience":"Experiencia",
+		"mensaje" : "Welcome",
+		"contact" : "Contact",
+		"language" : "Language",
+		"language-region" : "English :",
+		"language-level" : "Intermediate",
+		"language-icon" : "es",
+		"objetivo":"Objetive",
+		"experience":"Experience",
 		"experience-name0":"FullStack .NET Developer",
 		"experience-company0":"Middlesoft |Jul 2019 - Actualmente",
 		"experience-description0":"Desarrollo Web en .Net C# ",
@@ -21,14 +21,14 @@
 		"experience-description2":"Atencion al cliente",
 		"experience-description2.1":"Control de stock",
 		"experience-description2.2":"Colaborador en cocina",
-		"formation":"Formacion",
+		"formation":"Education",
 		"formation-name0":"Analista Programador/Tecnologia de la informacion",
 		"formation-institute0":"Universidad ORT Uruguay | Marzo 2017 - Diciembre 2020",
 		"formation-description0":"Carrera práctica orientada a formar técnicos especializados en desarrollo de software.",
 		"formation-name1":"Educacion secundaria / Bachillerato",
 		"formation-institute1":"San Jose de la Provicencia  | Marzo 2011 - Noviembre 2013",
 		"formation-description1":"Egresado Orientación Social y Económico",
-		"profile":"Perfil",
+		"profile":"Profile",
 		"profile-line1":"FullStack .Net Developer.",
 		"profile-line2":"Comencé mi carrera laboral en julio 2019.",
 		"profile-line3":"Dinámico, Pro activo ,entusiasta y profesional.",
@@ -41,7 +41,6 @@
 		"hobbies-description0":"Manejo de redes sociales y en la creacion de un nuevo sitio web ",
 		"hobbies-title1":"Educacion tecnica en Gastronomica",
 		"hobbies-zone1":"Instituto Crandon | Mar 2014 - Jun 2016"
-	
 
 }
 }
