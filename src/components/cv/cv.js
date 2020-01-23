@@ -119,7 +119,7 @@ class Curriculum extends React.Component{
                 <div className="sub-section">
                     <div className="sub-section-container">
                    
-                    <label className="titles"><img className="titles-icons" src={iconSchool} alt="" /><Content  class="" name="Education"/></label>
+                    <label className="titles"><img className="titles-icons" src={iconSchool} alt="" /><Content  class="" name="formation"/></label>
                         <div className="line"></div>
                         <div className="experience-sub-container">
                             <Content  class="job-name" name="formation-name0"/>
