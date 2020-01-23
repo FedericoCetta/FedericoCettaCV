@@ -36,7 +36,7 @@ class Curriculum extends React.Component{
 					<div className="picture-title-container">
 					
 						<div className="header-title-name-container">					
-						<label className="title-header1">FullStack .Net Developer</label>
+						<label className="title-header1">.Net Developer</label>
                         <label className="title-header2">Federico Cetta</label>
 						</div>
 					</div>
@@ -119,7 +119,7 @@ class Curriculum extends React.Component{
                 <div className="sub-section">
                     <div className="sub-section-container">
                    
-                    <label className="titles"><img className="titles-icons" src={iconSchool} alt="" />Formacion</label>
+                    <label className="titles"><img className="titles-icons" src={iconSchool} alt="" /><Content  class="" name="Education"/></label>
                         <div className="line"></div>
                         <div className="experience-sub-container">
                             <Content  class="job-name" name="formation-name0"/>
@@ -140,7 +140,7 @@ class Curriculum extends React.Component{
 
 				<div className="sub-section">
                     <div className="sub-section-container">
-                        <label className="titles"><img className="titles-icons" src={IconHobbies} alt="" />HOBBIES</label>
+                        <label className="titles"><img className="titles-icons" src={IconHobbies} alt="" /><Content  class="" name="hobbies"/></label>
                         <div className="line"></div>
                         <div className="experience-sub-container">
                         <Content  class="job-name" name="hobbies-title0"/>
@@ -173,10 +173,10 @@ class Curriculum extends React.Component{
 
 	render(){
 		let url  = window.location.href;
-		if(url.search('/en') !== -1){
-			return this._getLayout('en')
+		if(url.search('/es') !== -1){
+			return this._getLayout('es')
 		}else{
-			return this._getLayout('es');
+			return this._getLayout('en');
 		}
 	}
 }
