@@ -112,16 +112,7 @@ class Curriculum extends React.Component{
                             <ul className="ul-job-description">
                                 <li className="job-description">  <Content  class="" name="experience-description1"/></li>
                             </ul>
-                        </div>
-                        <div className="experience-sub-container">
-                        <Content  class="job-name" name="experience-name2"/>
-                        <Content  class="job-date-company" name="experience-company2"/>
-                            <ul className="ul-job-description">
-                            <li className="job-description">  <Content  class="" name="experience-description2"/></li>
-                            <li className="job-description">  <Content  class="" name="experience-description2.1"/></li>
-                            <li className="job-description">  <Content  class="" name="experience-description2.2"/></li>
-                            </ul>
-                        </div>              
+                        </div>         
                     </div>                    
                 </div>
 
