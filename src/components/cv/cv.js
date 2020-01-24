@@ -30,9 +30,6 @@ class Curriculum extends React.Component{
   
     _getLayout(lang){
         
-
-        const urlChange="https://fedecetta.info/#/"+change;
-
         return (<TranslatorProvider translations={require('./jsons/'+lang+'.json')}>
 			<div className="container">
 			<div className="row">
