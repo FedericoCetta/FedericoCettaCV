@@ -28,10 +28,10 @@ import iconChangeLang from './img/iconChangeLang.png';
 
 class Curriculum extends React.Component{
   
-    _getLayout(lang){
+    _getLayout(lang,change){
         
 
-        const urlChange="https://fedecetta.info/#/"+lang;
+        const urlChange="https://fedecetta.info/#/"+change;
 
         return (<TranslatorProvider translations={require('./jsons/'+lang+'.json')}>
 			<div className="container">
@@ -180,9 +180,9 @@ class Curriculum extends React.Component{
 	render(){
 		let url  = window.location.href;
 		if(url.search('/es') !== -1){
-			return this._getLayout('es')
+			return this._getLayout('es','en')
 		}else{
-			return this._getLayout('en');
+			return this._getLayout('en','es');
 		}
 	}
 }
