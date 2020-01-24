@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fbef950.chunk.css",
-    "main.js": "/static/js/main.192c5a7e.chunk.js",
-    "main.js.map": "/static/js/main.192c5a7e.chunk.js.map",
+    "main.css": "/static/css/main.c6950a4f.chunk.css",
+    "main.js": "/static/js/main.3844db43.chunk.js",
+    "main.js.map": "/static/js/main.3844db43.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1a920d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1a920d6.js.map",
-    "static/js/2.cbb56682.chunk.js": "/static/js/2.cbb56682.chunk.js",
-    "static/js/2.cbb56682.chunk.js.map": "/static/js/2.cbb56682.chunk.js.map",
+    "static/js/2.84005f18.chunk.js": "/static/js/2.84005f18.chunk.js",
+    "static/js/2.84005f18.chunk.js.map": "/static/js/2.84005f18.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.016c66b85279adc0f1f225e5667b89a7.js": "/precache-manifest.016c66b85279adc0f1f225e5667b89a7.js",
+    "precache-manifest.27e58e5bf478122fe0709d2c0cb2f8d0.js": "/precache-manifest.27e58e5bf478122fe0709d2c0cb2f8d0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3fbef950.chunk.css.map": "/static/css/main.3fbef950.chunk.css.map",
-    "static/js/2.cbb56682.chunk.js.LICENSE": "/static/js/2.cbb56682.chunk.js.LICENSE",
+    "static/css/main.c6950a4f.chunk.css.map": "/static/css/main.c6950a4f.chunk.css.map",
+    "static/js/2.84005f18.chunk.js.LICENSE": "/static/js/2.84005f18.chunk.js.LICENSE",
     "static/media/FedericoCetta.pdf": "/static/media/FedericoCetta.75ca445d.pdf",
     "static/media/banner8.png": "/static/media/banner8.6e2cdad3.png",
+    "static/media/iconChangeLang.png": "/static/media/iconChangeLang.c69a9992.png",
     "static/media/iconLinkedin.png": "/static/media/iconLinkedin.9e26fcb4.png",
     "static/media/iconPerson.png": "/static/media/iconPerson.635d6e16.png",
     "static/media/iconSkill.png": "/static/media/iconSkill.4dfe938b.png",
+    "static/media/iconSpain.png": "/static/media/iconSpain.1547ae16.png",
     "static/media/inconLanguage.png": "/static/media/inconLanguage.c1a3f6ef.png",
     "static/media/perfil.jpg": "/static/media/perfil.462a6fbb.jpg",
     "static/media/phone.png": "/static/media/phone.71cb3c47.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a1a920d6.js",
-    "static/js/2.cbb56682.chunk.js",
-    "static/css/main.3fbef950.chunk.css",
-    "static/js/main.192c5a7e.chunk.js"
+    "static/js/2.84005f18.chunk.js",
+    "static/css/main.c6950a4f.chunk.css",
+    "static/js/main.3844db43.chunk.js"
   ]
 }
