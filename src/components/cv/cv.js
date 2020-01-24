@@ -20,17 +20,19 @@ import iconGithub from './img/iconGithub.png';
 import iconLinkedin from './img/iconLinkedin.png';
 import IconHobbies from './img/IconHobbies.png';
 import iconTwiter from './img/iconTwiter.png';
-import es from './img/iconSpain.png';
-import en from './img/iconEnglish.png';
+
+
 import pdf from './pdf/FedericoCetta.pdf';
-
-
+import iconS from './img/iconSpain.png';
+import iconChangeLang from './img/iconChangeLang.png';
 
 class Curriculum extends React.Component{
   
     _getLayout(lang){
-     
         
+
+        const urlChange="https://fedecetta.info/#/"+lang;
+
         return (<TranslatorProvider translations={require('./jsons/'+lang+'.json')}>
 			<div className="container">
 			<div className="row">
@@ -164,7 +166,7 @@ class Curriculum extends React.Component{
 			</div>
 			</div>
             <div className="icon-bar">
-
+        <a href={urlChange}  className=""><i><img className="titles-icons iconLanguage" src={iconChangeLang} alt="" /></i></a>
         <a href="https://www.linkedin.com/in/federico-cetta-06314a138/"  className=""><i><img className="titles-icons" src={iconLinkedin} alt="" /></i></a>
         <a href="https://twitter.com/FedericoCetta12"  className=""><i><img className="titles-icons" src={iconTwiter} alt="" /></i></a> 
         <a href="https://github.com/FedericoCetta/FedericoCettaCV"  className=""><i><img className="titles-icons" src={iconGithub} alt="" /></i></a> 
