@@ -23,12 +23,12 @@ import iconTwiter from './img/iconTwiter.png';
 
 
 import pdf from './pdf/FedericoCetta.pdf';
-import iconS from './img/iconSpain.png';
+
 import iconChangeLang from './img/iconChangeLang.png';
 
 class Curriculum extends React.Component{
   
-    _getLayout(lang,change){
+    _getLayout(lang){
         
 
         const urlChange="https://fedecetta.info/#/"+change;
@@ -166,7 +166,7 @@ class Curriculum extends React.Component{
 			</div>
 			</div>
             <div className="icon-bar">
-        <a href={urlChange}  className=""><i><img className="titles-icons iconLanguage" src={iconChangeLang} alt="" /></i></a>
+       
         <a href="https://www.linkedin.com/in/federico-cetta-06314a138/"  className=""><i><img className="titles-icons" src={iconLinkedin} alt="" /></i></a>
         <a href="https://twitter.com/FedericoCetta12"  className=""><i><img className="titles-icons" src={iconTwiter} alt="" /></i></a> 
         <a href="https://github.com/FedericoCetta/FedericoCettaCV"  className=""><i><img className="titles-icons" src={iconGithub} alt="" /></i></a> 
@@ -180,9 +180,9 @@ class Curriculum extends React.Component{
 	render(){
 		let url  = window.location.href;
 		if(url.search('/es') !== -1){
-			return this._getLayout('es','en')
+			return this._getLayout('es')
 		}else{
-			return this._getLayout('en','es');
+			return this._getLayout('en');
 		}
 	}
 }
