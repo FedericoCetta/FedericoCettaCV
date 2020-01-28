@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f75317b64805a5d81e27d17b6f96ecbe",
+    "revision": "28419711cc553bdd254eda84d46f4728",
     "url": "/index.html"
   },
   {
-    "revision": "c119ed4347f1ade1c4bd",
-    "url": "/static/css/main.c6950a4f.chunk.css"
+    "revision": "955e52f9160b0355a595",
+    "url": "/static/css/main.75616eb6.chunk.css"
   },
   {
     "revision": "884b0bbb662bff9a4ff6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c6cd2bd4.chunk.js.LICENSE"
   },
   {
-    "revision": "c119ed4347f1ade1c4bd",
-    "url": "/static/js/main.36a6ff50.chunk.js"
+    "revision": "955e52f9160b0355a595",
+    "url": "/static/js/main.8d131396.chunk.js"
   },
   {
     "revision": "b2fb3e6d001ecef7364f",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/FedericoCetta.75ca445d.pdf"
   },
   {
-    "revision": "6e2cdad3799b50fd718a21a0753ba513",
-    "url": "/static/media/banner8.6e2cdad3.png"
+    "revision": "43c7b67bd53d0269cdd9420cc6f81724",
+    "url": "/static/media/banner1.43c7b67b.png"
   },
   {
     "revision": "c69a9992c13bc3f44f924a34adade438",
