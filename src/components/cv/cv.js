@@ -5,7 +5,7 @@ import Content from './Content.js';
 import './cv.css';
 import './bootstrap.css';
 import './social-network.css';
-import logo from './img/banner8.png';
+import logo from './img/banner1.png';
 import perfil from './img/perfil.jpg';
 import phone from './img/phone.png';
 import email from './img/email.png';
@@ -47,8 +47,8 @@ class Curriculum extends React.Component{
                 <img className="profile-image" src={perfil} alt="perfil" />
                 <div className="sub-section">
                     <div className="sub-section-container">
-                        <label className="titles"><img className="titles-icons" src={iconPerson} alt="" /><Content  name="profile"/></label>
-                        <div className="line"></div>
+                        <label className="titles titleProfile"><img className="titles-icons" src={iconPerson} alt="" /><Content class="line" name="profile"/></label>
+                        
                         <Content class="profile-content" name="profile-line1"/>
                         <Content  class="profile-content" name="profile-line2"/>
                         <Content  class="profile-content" name="profile-line3"/>
@@ -58,16 +58,16 @@ class Curriculum extends React.Component{
                 </div>
                 <div className="sub-section">
                     <div className="sub-section-container">
-                        <label className="titles"><img className="titles-icons" src={iconContact} alt="" /><Content  name="contact"/></label>
-                        <div className="line"></div>
+                        <label className="titles"><img className="titles-icons" src={iconContact} alt="" /><Content  class="line" name="contact"/></label>
+                         
                         <div className="icon-container"><img className="titles-icons" src={email} alt="" /><span>federico.cetta1812@gmail.com</span></div>
                         <div className="icon-container"><img className="titles-icons" src={phone} alt="" /><span>+598 94 729 380</span></div>
                     </div>                    
                 </div>
                 <div className="sub-section">
                     <div className="sub-section-container">
-                        <label className="titles"><img className="titles-icons" src={iconLanguage} alt="" /><Content   name="language"/></label>
-                        <div className="line"></div>
+                        <label className="titles"><img className="titles-icons" src={iconLanguage} alt="" /><Content  class="line"  name="language"/></label>
+                         
                         <div className="">
                         <Content  class="languageTitle" name="language-region"/><Content  class="languageLevel" name="language-level"/>
                         </div>
@@ -76,8 +76,8 @@ class Curriculum extends React.Component{
                 <div className="sub-section">
                     <div className="sub-section-container">
                         <div>
-							<label className="titles"><img className="titles-icons" src={iconSkill} alt="" /><Content   name="conocimiento"/></label>
-                            <div className="line"></div>
+							<label className="titles"><img className="titles-icons" src={iconSkill} alt="" /><Content class="line"  name="conocimiento"/></label>
+                             
 						</div>
 						<div className="skill">C#</div>  
                         <div className="skill">ASP.NET MVC</div>
@@ -98,8 +98,8 @@ class Curriculum extends React.Component{
 			<div className="col-sm-7 col-12 experience-container">
                 <div className="sub-section">
                     <div className="sub-section-container">
-                        <label className="titles"> <img className="titles-icons" src={workicon} alt="" /><Content name="experience"/></label>
-                        <div className="line"></div>
+                        <label className="titles"> <img className="titles-icons" src={workicon} alt="" /><Content class="line" name="experience"/></label>
+                         
                         <div className="experience-sub-container">
                             <Content  class="job-name" name="experience-name0"/>
                             <Content  class="job-date-company" name="experience-company0"/>
@@ -121,8 +121,8 @@ class Curriculum extends React.Component{
                 <div className="sub-section">
                     <div className="sub-section-container">
                    
-                    <label className="titles"><img className="titles-icons" src={iconSchool} alt="" /><Content  class="" name="formation"/></label>
-                        <div className="line"></div>
+                    <label className="titles"><img className="titles-icons" src={iconSchool} alt="" /><Content  class="line" name="formation"/></label>
+                         
                         <div className="experience-sub-container">
                             <Content  class="job-name" name="formation-name0"/>
                             <Content  class="job-date-company" name="formation-institute0"/>
@@ -142,8 +142,8 @@ class Curriculum extends React.Component{
 
 				<div className="sub-section">
                     <div className="sub-section-container">
-                        <label className="titles"><img className="titles-icons" src={IconHobbies} alt="" /><Content  class="" name="hobbies"/></label>
-                        <div className="line"></div>
+                        <label className="titles"><img className="titles-icons" src={IconHobbies} alt="" /><Content class="line" name="hobbies"/></label>
+                         
                         <div className="experience-sub-container">
                         <Content  class="job-name" name="hobbies-title0"/>
                         <Content  class="job-date-company" name="hobbies-zone0"/>

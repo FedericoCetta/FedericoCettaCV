@@ -36,7 +36,9 @@ body{
     bottom: 176px;
     padding-left: 50px;
 }
-
+titleProfile{
+    display: inline;
+}
 .title-header1{
     max-width: 400px;
     font-style: oblique;
@@ -53,6 +55,7 @@ body{
     margin-bottom: 10px;
 }
 .languageTitle{
+    color: #1d5996;
     font-weight: bold;
 }
 .languageLevel{
@@ -79,18 +82,12 @@ body{
     padding-left: 20px;
     padding-right: 50px;
 }
-/*
+
 .line {
-    content : "";
-    position: absolute;
-    top  : 68px;
-    left:39px;
-    height  : 1px;
-    width   : 80%; 
-    border-bottom: 3px solid #0076f1;
-   
+    border-bottom: 3px solid#ffba6a;
   }
-*/
+
+
 .ul-job-description{
     margin-left: 36px;
 }
@@ -101,7 +98,7 @@ body{
     font-weight: bold;  
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    color: #0076f1;
+    color: #1d5996;
   }
 
   .sub-section{
