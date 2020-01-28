@@ -10,6 +10,9 @@ body{
     padding-right: 0;
     padding-left: 0px;
 }
+.icon-bar button {
+
+}
 .container{
     background-color: #fff;
     z-index: 1000;
@@ -36,8 +39,8 @@ body{
     bottom: 176px;
     padding-left: 50px;
 }
-titleProfile{
-    display: inline;
+.titleProfile{
+    display: block;
 }
 .title-header1{
     max-width: 400px;
@@ -266,16 +269,6 @@ titleProfile{
         width: 444px
     }
   }
-
-
-  .usa-icon{
-      height: 80px;
-  }
-
- .btn-descargar{
-     background-color: rgb(0,25,99);
-     color: #FFF;
- }
 
  .skill{
      float: left;

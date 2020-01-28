@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
+
 import { TranslatorProvider } from "react-translate";
 import Content from './Content.js';
 import './cv.css';
@@ -27,9 +28,13 @@ import pdf from './pdf/FedericoCetta.pdf';
 import iconChangeLang from './img/iconChangeLang.png';
 
 class Curriculum extends React.Component{
-  
-    _getLayout(lang){
-        
+
+        routeChange(path) {
+            this.props.history.push(path);
+        }
+    _getLayout(lang,change){
+        const url = change;
+
         return (<TranslatorProvider translations={require('./jsons/'+lang+'.json')}>
 			<div className="container">
 			<div className="row">
@@ -163,7 +168,8 @@ class Curriculum extends React.Component{
 			</div>
 			</div>
             <div className="icon-bar">
-       
+
+        <a onClick={(event) => this.routeChange(url)} className=""><i><img className="titles-icons iconLanguage" src={iconChangeLang} alt="" /></i></a>
         <a href="https://www.linkedin.com/in/federico-cetta-06314a138/"  className=""><i><img className="titles-icons" src={iconLinkedin} alt="" /></i></a>
         <a href="https://twitter.com/FedericoCetta12"  className=""><i><img className="titles-icons" src={iconTwiter} alt="" /></i></a> 
         <a href="https://github.com/FedericoCetta/FedericoCettaCV"  className=""><i><img className="titles-icons" src={iconGithub} alt="" /></i></a> 
@@ -177,9 +183,9 @@ class Curriculum extends React.Component{
 	render(){
 		let url  = window.location.href;
 		if(url.search('/es') !== -1){
-			return this._getLayout('es')
+			return this._getLayout('es','en')
 		}else{
-			return this._getLayout('en');
+			return this._getLayout('en','es');
 		}
 	}
 }
