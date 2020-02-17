@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.97631656.chunk.css",
-    "main.js": "/static/js/main.a1b43310.chunk.js",
-    "main.js.map": "/static/js/main.a1b43310.chunk.js.map",
+    "main.css": "/static/css/main.2a89ad5f.chunk.css",
+    "main.js": "/static/js/main.b62e5c85.chunk.js",
+    "main.js.map": "/static/js/main.b62e5c85.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1a920d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1a920d6.js.map",
     "static/js/2.9db67bb7.chunk.js": "/static/js/2.9db67bb7.chunk.js",
     "static/js/2.9db67bb7.chunk.js.map": "/static/js/2.9db67bb7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9c51486acab0d1e3c5f220f3cd2c5a0c.js": "/precache-manifest.9c51486acab0d1e3c5f220f3cd2c5a0c.js",
+    "precache-manifest.1743b5db4836ec8bf7b6e26610f76cbc.js": "/precache-manifest.1743b5db4836ec8bf7b6e26610f76cbc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.97631656.chunk.css.map": "/static/css/main.97631656.chunk.css.map",
+    "static/css/main.2a89ad5f.chunk.css.map": "/static/css/main.2a89ad5f.chunk.css.map",
     "static/js/2.9db67bb7.chunk.js.LICENSE": "/static/js/2.9db67bb7.chunk.js.LICENSE",
-    "static/media/FedericoCetta.pdf": "/static/media/FedericoCetta.75ca445d.pdf",
+    "static/media/FedericoCetta.pdf": "/static/media/FedericoCetta.9833ca4b.pdf",
     "static/media/banner1.png": "/static/media/banner1.43c7b67b.png",
     "static/media/iconChangeLang.png": "/static/media/iconChangeLang.c69a9992.png",
     "static/media/iconLinkedin.png": "/static/media/iconLinkedin.9e26fcb4.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.a1a920d6.js",
     "static/js/2.9db67bb7.chunk.js",
-    "static/css/main.97631656.chunk.css",
-    "static/js/main.a1b43310.chunk.js"
+    "static/css/main.2a89ad5f.chunk.css",
+    "static/js/main.b62e5c85.chunk.js"
   ]
 }
